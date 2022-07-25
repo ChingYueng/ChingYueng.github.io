@@ -16,6 +16,6 @@ function openForm() {
   function create_ID() {
     confirmed = alert("New batch with batch ID " + Batch_ID + " added!");
     if (confirmed) {
-        return true;
+        window.location.href = 'Mixing.html';  // navigate page to coating & drying
     }
   }
